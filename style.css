@@ -1,0 +1,21 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C00105;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
